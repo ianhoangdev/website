@@ -6,10 +6,9 @@ export default function Home() {
   const messages = [
     "No (╥﹏╥)",
     "Hmmm... no?",
-    "Not this time",
-    "Try again? (｡•́︿•̀｡)",
+    "Touch me again and you'll see!!",
+    "Click this and you're gay",
     "Nice try! (≧◡≦)",
-    "Ehehe, still no~",
     "You can't escape my love 💞",
   ];
 
