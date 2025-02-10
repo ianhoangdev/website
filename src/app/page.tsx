@@ -21,10 +21,10 @@ export default function Home() {
   return (
     <div className="h-screen flex flex-col items-center justify-center text-center relative overflow-hidden bg-gradient-to-br from-pink-300 to-pink-500 bg-cover bg-center">
       <div className="p-8 rounded-3xl shadow-2xl backdrop-blur-md border border-white/40 bg-white/60">
-        <h1 className="text-4xl font-bold text-pink-600 mb-6 drop-shadow-lg">
+        <h1 className="text-3xl sm:text-4xl font-bold text-pink-600 mb-6 drop-shadow-lg">
           Will you be my Valentine? 💝
         </h1>
-        <div className="flex space-x-6 relative">
+        <div className="flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6 relative">
           <Link
             href="/confirmation"
             className="px-6 py-3 bg-gradient-to-r from-pink-400 to-rose-300 text-white text-lg font-bold rounded-full hover:scale-105 transition-all shadow-md hover:from-pink-500 hover:to-rose-400"
@@ -44,57 +44,57 @@ export default function Home() {
       <img
         src="/capybara.gif"
         alt="Capybara"
-        className="absolute w-28 h-28 drop-shadow-lg animate-bounce"
-        style={{ left: "80%", top: "75%" }}
+        className="absolute w-20 sm:w-28 h-20 sm:h-28 drop-shadow-lg animate-bounce"
+        style={{ left: "70%", top: "70%" }}
       />
 
       {/* Other images */}
       <img
         src="/cat.gif"
         alt="Cat"
-        className="absolute drop-shadow-lg w-24 h-auto"
+        className="absolute drop-shadow-lg w-16 sm:w-24 h-auto"
         style={{ left: "10%", top: "20%" }}
       />
 
       <img
         src="/photo1.png"
         alt="Photo 1"
-        className="absolute drop-shadow-lg w-[400px] h-auto"
+        className="absolute drop-shadow-lg w-[300px] sm:w-[400px] h-auto"
         style={{ left: "50%", top: "65%", transform: "translateX(-50%)" }}
       />
 
       <img
         src="/photo2.png"
         alt="Photo 2"
-        className="absolute drop-shadow-lg w-[400px] h-auto"
+        className="absolute drop-shadow-lg w-[300px] sm:w-[400px] h-auto"
         style={{ left: "0%", top: "50%" }}
       />
 
       <img
         src="/capy.gif"
         alt="Capy"
-        className="absolute drop-shadow-lg w-[400px] h-auto"
-        style={{ left: "70%", top: "20%" }}
+        className="absolute drop-shadow-lg w-[300px] sm:w-[400px] h-auto"
+        style={{ left: "60%", top: "25%" }}
       />
 
       <img
         src="/tulip.gif"
         alt="Tulip"
-        className="absolute drop-shadow-lg w-24 h-auto"
+        className="absolute drop-shadow-lg w-20 sm:w-24 h-auto"
         style={{ left: "50%", top: "30%", transform: "translateX(-50%)" }}
       />
 
       <img
         src="/kiss.gif"
         alt="Kiss"
-        className="absolute drop-shadow-lg w-24 h-auto"
+        className="absolute drop-shadow-lg w-20 sm:w-24 h-auto"
         style={{ left: "40%", top: "32%" }}
       />
 
       <img
         src="/heart.gif"
         alt="Heart"
-        className="absolute drop-shadow-lg w-[200px] h-auto"
+        className="absolute drop-shadow-lg w-[150px] sm:w-[200px] h-auto"
         style={{ left: "40%", top: "0%" }}
       />
     </div>
